@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Botones" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="layout_columnWeight">1</item>
+        <item name="layout_rowWeight">1</item>
+        <item name="android:onClick">presionoBoton</item>
+
+    </style>
+        <style name="AppTheme.BotonOperacion" parent="AppTheme.Botones">
+            <item name="android:background">@color/icons</item>
+            <item name="android:onClick">presionoOperacion</item>
+        </style>
+</resources>

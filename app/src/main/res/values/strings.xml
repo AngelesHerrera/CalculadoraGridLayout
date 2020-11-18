@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CalculadoraGridLayout</string>
+    <string name="result_init">0</string>
+    <!-- Numeros -->
+    <string name="Numero1">1</string>
+    <string name="Numero2">2</string>
+    <string name="Numero3">3</string>
+    <string name="Numero4">4</string>
+    <string name="Numero5">5</string>
+    <string name="Numero6">6</string>
+    <string name="Numero7">7</string>
+    <string name="Numero8">8</string>
+    <string name="Numero9">9</string>
+    <string name="Numero0">0</string>
+    <!-- Operaciones -->
+    <string name="OpeC">C</string>
+    <string name="OpeSuma">+</string>
+    <string name="OpeResta">-</string>
+    <string name="OpeIgual">=</string>
+</resources>

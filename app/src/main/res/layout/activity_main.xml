@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_result"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:padding="16dp"
+        android:text="@string/result_init"
+        android:textSize="@dimen/text_result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        app:columnCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_result"
+        app:orientation="horizontal"
+        app:rowCount="4">
+
+        <TextView
+            android:id="@+id/num7"
+            style="@style/AppTheme.Botones"
+            android:text="@string/Numero7" />
+
+
+        <TextView
+            android:id="@+id/num8"
+            style="@style/AppTheme.Botones"
+            android:text="@string/Numero8" />
+
+        <TextView
+            android:id="@+id/num9"
+            style="@style/AppTheme.Botones"
+            android:text="@string/Numero9" />
+
+        <TextView
+            android:id="@+id/limpiar"
+            style="@style/AppTheme.BotonOperacion"
+            android:text="@string/OpeC" />
+
+        <TextView
+            android:id="@+id/num4"
+            style="@style/AppTheme.Botones"
+            android:text="@string/Numero4" />
+
+        <TextView
+            android:id="@+id/num5"
+            style="@style/AppTheme.Botones"
+            android:text="@string/Numero5" />
+
+        <TextView
+            android:id="@+id/num6"
+            style="@style/AppTheme.Botones"
+            android:text="@string/Numero6" />
+
+        <TextView
+            android:id="@+id/suma"
+            style="@style/AppTheme.BotonOperacion"
+            android:text="@string/OpeSuma" />
+
+        <TextView
+            android:id="@+id/num1"
+            style="@style/AppTheme.Botones"
+            android:text="@string/Numero1" />
+
+        <TextView
+            android:id="@+id/num2"
+            style="@style/AppTheme.Botones"
+            android:text="@string/Numero2" />
+
+        <TextView
+            android:id="@+id/num3"
+            style="@style/AppTheme.Botones"
+            android:text="@string/Numero3" />
+
+        <TextView
+            android:id="@+id/resta"
+            style="@style/AppTheme.BotonOperacion"
+            android:text="@string/OpeResta" />
+
+        <TextView
+            android:id="@+id/num0"
+            style="@style/AppTheme.Botones"
+            android:text="@string/Numero0" />
+
+        <TextView
+            android:id="@+id/resul"
+            style="@style/AppTheme.BotonOperacion"
+            android:text="@string/OpeIgual"
+            app:layout_columnSpan="3" />
+
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
